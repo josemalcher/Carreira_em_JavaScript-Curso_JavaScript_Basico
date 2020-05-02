@@ -22,6 +22,22 @@ ESSE CURSO É ESPECIALMENTE PARA QUEM NUNCA JAMAIS TRABALHOU COM A MARAVILHA LIN
 
 ## <a name="parte1">1 - Conceitos</a>
 
+#### 01 - Apresentação Curso de JavaScript
+
+- Documentação: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
+
+- Documentação Extra: [http://devdocs.io/javascript/](http://devdocs.io/javascript/)
+
+#### 02 - O que é o JavaScript
+
+
+#### 03 - Ferramentas Curso de JavaScript
+
+Google Chrome: [https://www.google.com/chrome/browser/desktop/index.html](https://www.google.com/chrome/browser/desktop/index.html)
+
+Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+JSFiddle: [https://jsfiddle.net](https://jsfiddle.net)
 
 
 [Voltar ao Índice](#indice)
@@ -31,7 +47,10 @@ ESSE CURSO É ESPECIALMENTE PARA QUEM NUNCA JAMAIS TRABALHOU COM A MARAVILHA LIN
 
 ## <a name="parte2">2 - Prático</a>
 
-
+#### 01 - Primeiro Programa e Conceitos do JavaScript
+#### 02 - Comentários de Código em JavaScript
+#### 03 - Variáveis em JavaScript
+#### 04 - Concatenação no JavaScript
 
 [Voltar ao Índice](#indice)
 
