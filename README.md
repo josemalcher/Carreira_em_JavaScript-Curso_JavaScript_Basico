@@ -109,6 +109,13 @@ console.log(jose);
 
 #### 04 - Concatenação no JavaScript
 
+```js
+var name = "José Malcher Jr";
+var age = 35;
+
+console.log("O nome é " + name + " e tem idade de " + age);
+```
+
 [Voltar ao Índice](#indice)
 
 ---

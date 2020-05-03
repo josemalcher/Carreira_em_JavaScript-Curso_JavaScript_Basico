@@ -1,6 +1,4 @@
-var jose = "José Malcher Jr.";
-console.log(jose);
-jose = 12345
-console.log(jose);
-jose = 1.23
-console.log(jose);
+var name = "José Malcher Jr";
+var age = 35;
+
+console.log("O nome é " + name + " e tem idade de " + age);
