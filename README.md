@@ -93,6 +93,20 @@ console.log("OK! Script Separado")
 
 #### 03 - Variáveis em JavaScript
 
+```js
+var jose = "José Malcher Jr.";
+console.log(jose);
+jose = 12345
+console.log(jose);
+jose = 1.23
+console.log(jose);
+
+```
+
+![03 - Variáveis em JavaScript](img/03-VariaveisemJavaScript.JPG)
+
+![03 - Variáveis em JavaScript](img/03-VariaveisemJavaScript_error.JPG)
+
 #### 04 - Concatenação no JavaScript
 
 [Voltar ao Índice](#indice)
