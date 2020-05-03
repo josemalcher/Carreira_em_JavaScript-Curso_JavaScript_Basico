@@ -1,0 +1,1 @@
+console.log("OK! Script Separado")

@@ -48,8 +48,40 @@ JSFiddle: [https://jsfiddle.net](https://jsfiddle.net)
 ## <a name="parte2">2 - Prático</a>
 
 #### 01 - Primeiro Programa e Conceitos do JavaScript
+
+- [02-Pratico/01-Primeiro-Programa-e-Conceitos-do-JavaScript.html](02-Pratico/01-Primeiro-Programa-e-Conceitos-do-JavaScript.html)
+
+```html
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>01 - Primeiro Programa e Conceitos do JavaScript</title>
+
+</head>
+<body>
+
+<!--<script>
+    console.log("OK!")
+</script>-->
+<script src="js/app.js"></script>
+</body>
+</html>
+```
+
+- [02-Pratico/js/app.js](02-Pratico/js/app.js)
+
+```js
+console.log("OK! Script Separado")
+```
+
 #### 02 - Comentários de Código em JavaScript
+
 #### 03 - Variáveis em JavaScript
+
 #### 04 - Concatenação no JavaScript
 
 [Voltar ao Índice](#indice)
