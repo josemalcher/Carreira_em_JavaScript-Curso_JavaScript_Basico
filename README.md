@@ -80,6 +80,17 @@ console.log("OK! Script Separado")
 
 #### 02 - Comentários de Código em JavaScript
 
+```js
+//console.log("OK! Script Separado")
+console.log("OK! Script Separado")
+
+/*
+console.log("OK! Script Separado")
+console.log("OK! Script Separado")
+*/
+
+```
+
 #### 03 - Variáveis em JavaScript
 
 #### 04 - Concatenação no JavaScript
