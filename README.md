@@ -167,6 +167,19 @@ console.log(((4 - 2 + 2) / 2 + 2) * 3); // 12
 ```
 
 #### 03 - Operadores Aritméticos incremento e decremento JavaScript
+
+```js
+console.log(n1++) // 12
+console.log(n1)   // 13
+console.log(++n2) // 5
+console.log(n2)   // 5
+
+console.log(n1--) // 13
+console.log(n1)   // 12
+console.log(--n2) // 4
+console.log(n2)   // 4
+```
+
 #### 04 - Operadores Aritméticos Resto da Divisão JavaScript
 #### 05 - Operadores de Atribuição JavaScript
 #### 06 - Operadores de Comparação JavaScript

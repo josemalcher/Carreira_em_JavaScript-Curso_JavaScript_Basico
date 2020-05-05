@@ -16,10 +16,12 @@ console.log(12  ** 1);*/
 16
 12
 */
+/*
 
 console.log((4 - 2 + 3) * 2); // 10
 console.log((4 - 2 + 2) / 2); // 2
 console.log(((4 - 2 + 2) / 2 + 2) * 3); // 12
+*/
 
 /*
 
@@ -28,3 +30,13 @@ console.log(((4 - 2 + 2) / 2 + 2) * 3); // 12
 3 - Multiplicação, Divisão, Resto e Divisão Inteira
 4 - Adição, Subtração
 */
+console.log(n1++) // 12
+console.log(n1)   // 13
+console.log(++n2) // 5
+console.log(n2)   // 5
+
+console.log(n1--) // 13
+console.log(n1)   // 12
+console.log(--n2) // 4
+console.log(n2)   // 4
+
