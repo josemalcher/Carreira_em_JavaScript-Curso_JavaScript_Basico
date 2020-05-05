@@ -149,6 +149,23 @@ console.log(12  ** 1);
 ```
 
 #### 02 - Ordem de Prioridade Operadores Aritméticos JavaScript
+
+```js
+
+console.log((4 - 2 + 3) * 2); // 10
+console.log((4 - 2 + 2) / 2); // 2
+console.log(((4 - 2 + 2) / 2 + 2) * 3); // 12
+
+/*
+
+1 - Parênteses
+2 - Potenciação
+3 - Multiplicação, Divisão, Resto e Divisão Inteira
+4 - Adição, Subtração
+*/
+
+```
+
 #### 03 - Operadores Aritméticos incremento e decremento JavaScript
 #### 04 - Operadores Aritméticos Resto da Divisão JavaScript
 #### 05 - Operadores de Atribuição JavaScript
