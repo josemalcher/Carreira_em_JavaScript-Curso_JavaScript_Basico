@@ -123,7 +123,37 @@ console.log("O nome é " + name + " e tem idade de " + age);
 
 ## <a name="parte3">3 - Operadores Matemáticos</a>
 
+#### 01 - Operadores Aritméticos JavaScript
 
+- Documentação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators#operadores_aritmeticos
+
+```js
+var n1 = 12;
+var n2 = 4;
+
+console.log(n1 + n2);
+console.log(n1 - n2);
+console.log(n1 * n2);
+console.log(n1 / n2);
+console.log(2  ** n2);
+console.log(12  ** 1);
+
+/*
+16
+8
+48
+3
+16
+12
+*/
+```
+
+#### 02 - Ordem de Prioridade Operadores Aritméticos JavaScript
+#### 03 - Operadores Aritméticos incremento e decremento JavaScript
+#### 04 - Operadores Aritméticos Resto da Divisão JavaScript
+#### 05 - Operadores de Atribuição JavaScript
+#### 06 - Operadores de Comparação JavaScript
+#### 07 - Operadores Lógicos JavaScript
 
 [Voltar ao Índice](#indice)
 
