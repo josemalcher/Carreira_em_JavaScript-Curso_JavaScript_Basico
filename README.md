@@ -318,6 +318,82 @@ console.log(result); // Result é igual a Quatro
 
 ## <a name="parte5">5 - Funções</a>
 
+#### 01 - Funções no JavaScript
+
+ ```js
+function showLog() {
+    console.log("**************")
+    console.log("****  LOG  ****")
+    console.log("**************")
+}
+
+showLog();
+
+```
+
+#### 02 - Funções com parâmetros no JavaScript
+
+```js
+var n1 = 2;
+var n2 = 8;
+var result = ((n1 + n2) + 6) / 2;
+console.log(result); // 8
+
+
+function calc(n1, n2) {
+    return ((n1 + n2) + 6) / 2;
+}
+
+console.log(calc(2, 8)); // 8
+
+
+```
+
+#### 03 - JavaScript Funções com parâmetros opcionais
+
+```js
+function calc(n1, n2, n3) {
+    n3 = (n3 == undefined) ? 2 : n3;
+    return ((n1 + n2) + 6) / n3;
+}
+console.log(calc(2, 8)); // 8
+```
+
+#### 04 - Funções Recursivas no JavaScript
+
+```js
+var n1 = 5;
+
+function recursiva(n) {
+    console.log(n);
+    if (n > 0) {
+        return recursiva(n - 1);
+    }
+}
+
+recursiva(n1); // 5 4 3 2 1 
+
+```
+
+#### 05 - JavaScript Funções Aninhadas
+
+```js
+
+function aninhadas(n1, n2, n3) {
+    function calc(n) {
+        return n * n3;
+    }
+
+    return calc(n1) + calc(n2);
+}
+
+function dobra(n) {
+    return n * 2;
+}
+
+console.log(aninhadas(2, 4, 2));
+
+```
 
 
 [Voltar ao Índice](#indice)
