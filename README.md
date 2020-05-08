@@ -602,11 +602,48 @@ console.log(typeof numb.toString()); // string
 
 #### 06 - Arrays JavaScript (map, filter)
 
+```js
 
+console.log(names_3); // (3) ["Jose", "luciana", "maria"]
+var result_1 = names_3.map(function (item) {
+    return item.toUpperCase()
+});
+console.log(result_1); // (3) ["JOSE", "LUCIANA", "MARIA"]
+
+console.log(numb); // (6) [1, 2, 3, 4, 5, 6]
+var result_2 = numb.map(function (value) {
+    return value * 2;
+});
+console.log(result_2);// 6) [2, 4, 6, 8, 10, 12]
+
+var result_3 = numb.filter(function (item) {
+    return item == 99;
+});
+console.log(result_3); // []
+
+var result_4 = numb.filter(function (item) {
+    return item > 4;
+});
+console.log(result_4); //[5, 6]
+
+```
 
 #### 07 - Arrays JavaScript (every, some)
 
+```js
+console.log(numb); // (6) [4, 5, 6, 1, 2, 3]
+var result_5 = numb.every(function (value) {
+    return value < 10; // retorna true se todos atender
+});
 
+console.log(result_5) // true
+
+console.log(numb); // (6) [4, 5, 6, 1, 2, 3]
+var result_6 = numb.some(function (value) {
+    return value >= 5; // retorna true se algum item atender
+});
+console.log(result_6) // true
+```
 
 #### 08 - Arrays JavaScript (reduce, reduceRight)
 
