@@ -40,9 +40,9 @@ __proto__: Array(0)
 
 var names = ["jose", "luci", "Ana Carolina", [1,2,3]];
 
-console.log(names[0]); // jose
+//console.log(names[0]); // jose
 names[0] = "Jose Malcher Jr";
-console.log(names);
+//console.log(names);
 /*
 (4) ["Jose Malcher Jr", "luci", "Ana Carolina", Array(3)]
 0: "Jose Malcher Jr"
@@ -54,7 +54,7 @@ __proto__: Array(0)
 * */
 
 names.push("Cursos"); // adiciona no final
-console.log(names);
+//console.log(names);
 /*
 (5) ["Jose Malcher Jr", "luci", "Ana Carolina", Array(3), "Cursos"]
 0: "Jose Malcher Jr"
@@ -68,7 +68,7 @@ __proto__: Array(0)
 
 names.unshift("Curso JAVA"); // adiciona no inicio
 names.unshift("Start");
-console.log(names);
+//console.log(names);
 /*
 (7) ["Start", "Curso JAVA", "Jose Malcher Jr", "luci", "Ana Carolina", Array(3), "Cursos"]
 0: "Start"
@@ -83,7 +83,7 @@ __proto__: Array(0)
 * */
 
 names.pop(); // Remove do final
-console.log(names);
+//console.log(names);
 
 /*
 (6) ["Start", "Curso JAVA", "Jose Malcher Jr", "luci", "Ana Carolina", Array(3)]
@@ -98,7 +98,7 @@ __proto__: Array(0)
 * */
 
 names.shift();
-console.log(names);
+//console.log(names);
 /*
 (5) ["Curso JAVA", "Jose Malcher Jr", "luci", "Ana Carolina", Array(3)]
 0: "Curso JAVA"
@@ -109,4 +109,79 @@ console.log(names);
 length: 5
 __proto__: Array(0)
 * */
+
+
+// 03 - Arrays JavaScript (join, reverse, sort)
+
+var names_3 = ['Jose', 'luciana', 'maria'];
+var numb = [4, 5, 6, 1, 2, 3];
+
+//console.log(names_3.join(' - '));
+// Jose - luciana - maria
+
+//console.log(numb.reverse());
+/*
+(6) [3, 2, 1, 6, 5, 4]
+0: 1
+1: 2
+2: 3
+3: 4
+4: 5
+5: 6
+length: 6
+__proto__: Array(0)
+* */
+
+//numb.sort();
+//console.log(numb);
+/*
+(6) [1, 2, 3, 4, 5, 6]
+0: 1
+1: 2
+2: 3
+3: 4
+4: 5
+5: 6
+length: 6
+__proto__: Array(0)
+* */
+/*
+
+console.log(numb.sort(function (x1,x2) {
+    return x1 < x2;
+}));
+
+
+console.log(numb.sort(function (val1, val2) {
+    return val1 > val2;
+}));
+*/
+
+
+// 04 - Arrays JavaScript (indexOf, lastIndexOf, findIndex)
+
+// console.log(names_3.indexOf("Jose")); // 0
+// console.log(names_3.indexOf("Junior")); // -1
+
+// console.log(numb.lastIndexOf(2)); // 4
+
+var result  = numb.findIndex(function (item) {
+    return item == 114;
+})
+// console.log(result); // -1
+
+
+// 05 - Arrays JavaScript (concate, slice, toString)
+
+console.log(names_3.concat(numb));
+//(9) ["Jose", "luciana", "maria", 4, 5, 6, 1, 2, 3]
+
+console.log(numb.sort()) // (6) [1, 2, 3, 4, 5, 6]
+console.log(numb.sort().slice(1,3)) // (2) [2, 3]
+
+console.log(numb.toString()); // 1,2,3,4,5,6
+console.log(typeof numb.toString()); // string
+
+
+// 06 - Arrays JavaScript (map, filter)
 
