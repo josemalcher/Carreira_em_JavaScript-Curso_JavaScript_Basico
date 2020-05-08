@@ -647,7 +647,20 @@ console.log(result_6) // true
 
 #### 08 - Arrays JavaScript (reduce, reduceRight)
 
+```js
 
+console.log(numb); // (6) [4, 5, 6, 1, 2, 3]
+var total = numb.reduce(function (previusValue, currentValue, currentIndex, itemsPanelView) {
+    return previusValue + currentValue;
+});
+console.log(total); // 21 (frente para trás)
+
+var total_traPraFrente = numb.reduce(function (previusValue, currentValue, currentIndex, itemsPanelView) {
+    return previusValue + currentValue;
+});
+console.log(total_traPraFrente) // 21 (trás para frente)
+
+```
 
 
 [Voltar ao Índice](#indice)
