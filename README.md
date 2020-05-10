@@ -670,6 +670,51 @@ console.log(total_traPraFrente) // 21 (trás para frente)
 
 ## <a name="parte7">7 - Objetos</a>
 
+- https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Trabalhando_com_Objetos
+
+
+
+#### 01 - Objetos no JavaScript
+
+```js
+//01 - Objetos no JavaScript
+
+var jose = {
+    nome: "jose malcher",
+    idade: 35
+}
+
+console.log(jose);
+/*
+{nome: "jose malcher", idade: 35}
+idade: 35
+nome: "jose malcher"
+__proto__: Object
+* */
+
+var josemalcher = {
+    nome: "José",
+    lastname: "Malcher Jr",
+
+    fullName: function () {
+        return this.nome + ' ' + this.lastname;
+    },
+    fullNameTwo: function (midleName) {
+        return this.nome + " " + midleName + " " + this.lastname;
+    }
+}
+
+console.log(josemalcher.fullName()); 
+// José Malcher Jr
+console.log(josemalcher.fullNameTwo("Stélio")); 
+// José Stélio Malcher Jr
+
+
+```
+
+#### 02 - Objetos em JavaScript - Parte 2-2
+
+
 
 
 [Voltar ao Índice](#indice)
@@ -677,9 +722,12 @@ console.log(total_traPraFrente) // 21 (trás para frente)
 ---
 
 
-## <a name="parte8">8 - Loops de Repetição</a>
+## <a name="parte8">8 - Loops de Repetição</a>#### 
 
-
+#### 01 - Loop FOR JavaScript
+#### 02 - Loop WHILE JavaScript
+#### 03 - Loop DO WHILE JavaScript
+#### 04 - Loop forEach JavaScript
 
 [Voltar ao Índice](#indice)
 
@@ -687,6 +735,13 @@ console.log(total_traPraFrente) // 21 (trás para frente)
 
 
 ## <a name="parte9">9 - Armazenamento de dados</a>
+
+#### 01 - Armazenamento localStorage JavaScript - Parte 1
+
+
+
+#### 02 - Armazenamento localStorage JavaScript - Parte 2
+
 
 
 
@@ -697,6 +752,17 @@ console.log(total_traPraFrente) // 21 (trás para frente)
 
 ## <a name="parte10">10 - Jogo</a>
 
+#### 01 - Desafio Jogo JavaScript
+
+
+
+#### 02 - Jogo Adivinhe o Número com JavaScript
+
+
+
+#### 03 - Melhorando o Jogo Adivinhe o Número com JavaScript
+
+
 
 
 [Voltar ao Índice](#indice)
@@ -706,7 +772,7 @@ console.log(total_traPraFrente) // 21 (trás para frente)
 
 ## <a name="parte11">11 - Nota</a>
 
-
+#### 01 - Evolução do JavaScript
 
 [Voltar ao Índice](#indice)
 
