@@ -5,7 +5,7 @@ var jose = {
     idade: 35
 }
 
-console.log(jose);
+//console.log(jose);
 /*
 {nome: "jose malcher", idade: 35}
 idade: 35
@@ -25,8 +25,19 @@ var josemalcher = {
     }
 }
 
-console.log(josemalcher.fullName());
+//console.log(josemalcher.fullName());
 // José Malcher Jr
-console.log(josemalcher.fullNameTwo("Stélio"));
+//console.log(josemalcher.fullNameTwo("Stélio"));
 // José Stélio Malcher Jr
 
+
+var pessoa = new Object();
+pessoa.nome = "Jose";
+pessoa.idade = 35;
+
+pessoa.dados = pessoa.nome + " tem idade de " + pessoa.idade;
+console.log(pessoa);
+//{nome: "Jose", idade: 35, dados: "Jose tem idade de 35"}
+
+console.log(pessoa.dados); // Jose tem idade de 35
+console.log(pessoa['nome']); //Jose

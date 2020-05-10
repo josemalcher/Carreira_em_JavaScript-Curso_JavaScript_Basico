@@ -714,7 +714,19 @@ console.log(josemalcher.fullNameTwo("Stélio"));
 
 #### 02 - Objetos em JavaScript - Parte 2-2
 
+```js
+var pessoa = new Object();
+pessoa.nome = "Jose";
+pessoa.idade = 35;
 
+pessoa.dados = pessoa.nome + " tem idade de " + pessoa.idade;
+console.log(pessoa);
+//{nome: "Jose", idade: 35, dados: "Jose tem idade de 35"}
+
+console.log(pessoa.dados); // Jose tem idade de 35
+console.log(pessoa['nome']); //Jose
+
+```
 
 
 [Voltar ao Índice](#indice)
