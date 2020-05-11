@@ -859,10 +859,34 @@ Carro carro 5 Ano: 2004
 
 #### 01 - Armazenamento localStorage JavaScript - Parte 1
 
+```js
 
+localStorage.setItem("NAME", "José MAlcher");
+localStorage.setItem("CART", [123456789]);
+console.log(localStorage.getItem("NAME"));
+console.log(localStorage.getItem("NAME") == "José MAlcher");
+console.log(localStorage.getItem("NAME") !== null);
+console.log(localStorage.hasOwnProperty("NAME"));
+
+//remover um item
+localStorage.removeItem("CART");
+
+// remove todos
+localStorage.clear()
+```
 
 #### 02 - Armazenamento localStorage JavaScript - Parte 2
 
+```js
+if (localStorage.hasOwnProperty("USER")) {
+    var name = localStorage.getItem("USER");
+    alert("Olá " + name + "!");
+} else {
+    var name = prompt("Qual Nome: ");
+    localStorage.setItem("USER", name);
+}
+
+```
 
 
 
