@@ -820,6 +820,17 @@ Carro carro 1 ,ano  + 2000
 
 #### 03 - Loop DO WHILE JavaScript
 
+```js
+console.log("Do WHILE");
+var x = 90;
+do {
+    console.log(x);
+    x++;
+} while (x <= 10)
+/*
+ 90
+* */
+```
 
 #### 04 - Loop forEach JavaScript
 
