@@ -83,3 +83,19 @@ do {
 /*
  90
 * */
+
+
+// 04 - Loop forEach JavaScript
+console.log("Foreach");
+carros.forEach(function (element, index, array) {
+    var result = "Carro " + element.name + " Ano: " + element.ano;
+    console.log(result);
+});
+/*
+Foreach
+Carro carro 1 Ano: 2000
+Carro carro 2 Ano: 2001
+Carro carro 3 Ano: 2002
+Carro carro 4 Ano: 2003
+Carro carro 5 Ano: 2004
+* */
