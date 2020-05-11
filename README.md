@@ -974,6 +974,8 @@ function reset() {
 
 #### 01 - Evolução do JavaScript
 
+- https://www.w3schools.com/js/js_versions.asp
+
 [Voltar ao Índice](#indice)
 
 ---
