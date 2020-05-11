@@ -784,6 +784,39 @@ Carro carro 5 ,ano  + 2004
 
 #### 02 - Loop WHILE JavaScript
 
+```js
+console.log("while")
+var i = 0;
+while (i < carros.length) {
+    var result = "Carro " + carros[i].name + " ,ano  + " + carros[i].ano;
+    console.log(result);
+    i++;
+}
+console.log("end while")
+/*
+while
+Carro carro 1 ,ano  + 2000
+Carro carro 2 ,ano  + 2001
+Carro carro 3 ,ano  + 2002
+Carro carro 4 ,ano  + 2003
+Carro carro 5 ,ano  + 2004
+end while
+* */
+
+var i = carros.length - 1;
+while (i >= 0) {
+    var result = "Carro " + carros[i].name + " ,ano  + " + carros[i].ano;
+    console.log(result);
+    i--;
+}
+/*
+Carro carro 5 ,ano  + 2004
+Carro carro 4 ,ano  + 2003
+Carro carro 3 ,ano  + 2002
+Carro carro 2 ,ano  + 2001
+Carro carro 1 ,ano  + 2000
+* */
+```
 
 #### 03 - Loop DO WHILE JavaScript
 
